@@ -17,7 +17,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Auto Trade"] = {
         ["Enabled"] = true,
-        ["Whitelist Username"] = {""},
+        ["Whitelist Username"] = {"zinkeyy78"},
         ["Category Fish"] = {
             "Secret",
             -- {Tier = "Mythic", Variant = "Stone"}, -- Tier + Variant
@@ -83,8 +83,8 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
-            ["Luck Totem"] = 5,
-            "Mutation Totem",
+            ["Mutation Totem"] = 30,
+            "Luck Totem",
             "Shiny Totem",
         },
     },
@@ -169,6 +169,6 @@ _G.FishItConfig = _G.FishItConfig or {
     ["EXIT_MAP_IF_DISCONNECT"] = false,
 }
 
-script_key="";
+script_key="D1255AF11D3E93A370746E3F7B1913F8";
 
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
